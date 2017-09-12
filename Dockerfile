@@ -9,4 +9,4 @@ WORKDIR /var/www/node
 EXPOSE 3400
 
 RUN npm install -g serve
-CMD serve -p 3600 .
+CMD serve -p 3400 .
